@@ -1,2 +1,0 @@
-//To launch p5.js Paint open project in VSCode. (Must have Live Server and p5.vscode Installed.)
-//Then press Go Live in bottom right corner.

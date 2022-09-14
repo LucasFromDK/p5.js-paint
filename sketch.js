@@ -18,10 +18,10 @@ function setup() {
 
 function keybinds() {
   fill(0, 0, 0)
-  text("1 = Red, 2 = Green, 3 = Blue, 4 = Yellow, 5 = Purple, 6 = Black, DELETE = Clear Canvas", 20, 32);
-  text("BACKSPACE = Toggle Eraser Arrow Up = Increase Size, Arrow Down = Decrease Size", 21, 42)
-  //Spørg Christoffer
-  //window.alert("1 = Red, 2 = Green, 3 = Blue, 4 = Yellow, 5 = Purple, 6 = Black, DELETE = Clear Canvas, BACKSPACE = Toggle Eraser Arrow Up = Increase Size, Arrow Down = Decrease Size")
+  text("1 = Red, 2 = Green, 3 = Blue, 4 = Yellow, 5 = Purple, 6 = Neon Purple, 7 = Black, DELETE = Clear Canvas", 20, 32);
+  text("BACKSPACE = Toggle Eraser Arrow Up = Increase Size, Arrow Down = Decrease Size", 21, 42);
+  //Glitches Canvas
+  //window.alert("1 = Red, 2 = Green, 3 = Blue, 4 = Yellow, 5 = Purple, 6 = Neon Purple, 7 = Black, DELETE = Clear Canvas, BACKSPACE = Toggle Eraser Arrow Up = Increase Size, Arrow Down = Decrease Size")
 }
 
 function draw() {
@@ -78,6 +78,11 @@ function keyPressed() {
     rColorB = 199;
     console.log("Changed Color!");
   } else if (keyCode === 54) {
+    rColorR = 109;
+    rColorG = 34;
+    rColorB = 255;
+    console.log("Changed Color!");
+  } else if (keyCode === 55) {
     rColorR = 0;
     rColorG = 0;
     rColorB = 0;
@@ -100,5 +105,5 @@ function keyPressed() {
 console.log("Program Loaded!");
 
 console.log(
-  "Keybinds: 1 = Red, 2 = Green, 3 = Blue, 4 = Yellow, 5 = Purple, 6 = Black, BACKSPACE = Toggle Eraser Arrow Up = Increase Size, Arrow Down = Decrease Size, DELETE = Clear Canvas"
+  "Keybinds: 1 = Red, 2 = Green, 3 = Blue, 4 = Yellow, 5 = Purple, 6 = Neon Purple, 7 = Black, BACKSPACE = Toggle Eraser Arrow Up = Increase Size, Arrow Down = Decrease Size, DELETE = Clear Canvas"
 );

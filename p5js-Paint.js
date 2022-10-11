@@ -18,8 +18,7 @@ function setup() {
 
 function keybinds() {
   fill(0, 0, 0)
-  text("1 = Red, 2 = Green, 3 = Blue, 4 = Yellow, 5 = Purple, 6 = Neon Purple, 7 = Black, DELETE = Clear Canvas", 20, 32);
-  text("BACKSPACE = Toggle Eraser Arrow Up = Increase Size, Arrow Down = Decrease Size", 21, 42);
+  text("1 = Red, 2 = Green, 3 = Blue, 4 = Yellow, 5 = Purple, 6 = Neon Purple, 7 = Black, DELETE = Clear Canvas \nBACKSPACE = Toggle Eraser Arrow Up = Increase Size, Arrow Down = Decrease Size", 20, 32);
   //Glitches Canvas
   //window.alert("1 = Red, 2 = Green, 3 = Blue, 4 = Yellow, 5 = Purple, 6 = Neon Purple, 7 = Black, DELETE = Clear Canvas, BACKSPACE = Toggle Eraser Arrow Up = Increase Size, Arrow Down = Decrease Size")
 }
